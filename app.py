@@ -10,7 +10,7 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app)
 
-model_padi = load_model('models/model.h5')
+model_padi = load_model('model.h5')
 
 class_labels = [
     "Bacterial leaf blight",
